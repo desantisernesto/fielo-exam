@@ -1,0 +1,52 @@
+******************
+The Ideal Engineer
+******************
+At Fielo, we look for candidates who are ​friendly, smart, and motivated​. Our strategy is to build a small team
+where every single member is highly talented, hard working, and collaborative. This allows us to create an
+atmosphere of trust where employees had high agency over their work and could move quickly.
+In addition, we look for ​generalist, pragmatic problem solvers​. The needs of startups change rapidly so it’s
+critical that our engineers can learn new things quickly and fill whatever roles the project demands. If we hire a
+specialist too early we may find that their skills quickly become irrelevant.
+We assign a score of 0-40 based on the following 4 criteria:
+1. Basic Coding
+Ability to write a basic 5-10 lines of code that does one operation like transforming an array in some simple way.
+2. Basic Data Manipulation
+3. Efficiency
+Ability to translate specifications into clean, tested, documented code at a reasonable speed.
+4. Problem Solving
+
+Ability to apply more advanced algorithmic techniques to find an optimal solution to the given problem.
+
+*****************************************
+Looking for Bananas in the Monkeys island
+*****************************************
+
+Given a Jungle in the middle of an island of n*m dimensions. Each field in this jungle contains a
+positive integer which is the amount of bananas that exist in that field. Initially the monkey is at first
+column but can be at any row. The monkey can move only (right->,right up /,right down\) from a given
+cell. Find out the maximum amount of bananas they can collect.
+Input/Output Examples:
+Input : mat[][] = {{1, 3, 3},
+{2, 1, 4},
+{0, 6, 4}};
+Output : 12
+{(1,0)->(2,1)->(2,2)}
+Input: mat[][] = { {1, 3, 1, 5},
+{2, 2, 4, 1},
+{5, 0, 2, 3},
+{0, 6, 1, 2}};
+Output: 16
+(2,0) -> (1,1) -> (1,2) -> (0,3) OR
+(2,0) -> (3,1) -> (2,2) -> (2,3)
+Input: mat[][] = {{10, 33, 13, 15},
+{22, 21, 04, 1},
+{5, 0, 2, 3},
+{0, 6, 14, 2}};
+Output: 83
+Requirements
+1. Please state time and space (memory) complexity in Big O notation. (m,n) may be
+used to represent. If you need a basic primer on this, it’s here:
+Also, please state your thought process in writing (and any sketches you used) to arrive at your
+solution.
+2. Thought process (excel sheet, sketches, etc.)
+3. Working solution & test code
